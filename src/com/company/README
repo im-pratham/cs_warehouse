@@ -1,0 +1,12 @@
+1. Create a warehouse which can store products
+2. The warehouse has limit on the number of products it can produce
+3. products can be added or removed from warehouse
+4. the warehouse keeps track of count of products available, available spoace and capacity
+5. 2 types of products - gadget and widget
+6. they both have title and price
+7. gadget is sold in packs
+8. widget has an expiry date after which its value become zero
+9. the warehouse can get us total value of all products in warehouse
+10. trying to add new product to warehouse which does not exist throws an exception
+11. trying to remove product from warehouse  which does not exist throws an exception
+12. Trying to create an impossible warehouse of negative capacity throws an exception
